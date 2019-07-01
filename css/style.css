@@ -1,0 +1,96 @@
+/* Text */
+h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    background-image: url(../images/fashion-friends2.jpg);
+    height: 20vh;
+    background-repeat: no-repeat;
+    color: navy;
+    font-size: 3.25em;
+    padding: 15px;
+    margin-top: 0; 
+  
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    color: navy;
+    margin: 25px;
+    
+}
+
+/* Images */
+.cart {
+    align-self: center;
+    padding: 20px;
+    margin-left: 90px;
+}
+
+/*Button and box design*/
+button {
+    font-family: 'Roboto Mono', monospace;
+    color: deeppink;
+    background-color: navy;
+}
+
+
+.box {
+    width: 85%;
+    background-color: skyblue;
+    padding: 10px;
+    
+}
+ button {
+    padding: 10px;
+    align-self: center;
+    
+}
+
+input {
+    padding: 5px;
+    align-self: center;  
+
+}
+
+input , button {
+    width: 95%;
+    margin-bottom: 15px;
+   
+}
+
+/*list*/
+
+ul li {
+    padding: 5px;
+    color: navy;
+    list-style: square;
+}
+
+/*Footer*/
+
+Footer {
+    text-align: center;
+    font-size: 2em;
+    background-color: skyblue;
+    position: relative;
+    padding: 10px;
+    width: 85%;
+}
+
+i {
+    color: hotpink;
+}
+
+/*Media Quaries*/
+
+@media (min-width: 45rem) {
+    .box {
+        width: 60%;
+    }
+    .cart {
+        margin-left: 300px;
+    }
+    footer {
+        width: 60%;
+    }
+}
